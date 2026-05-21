@@ -68,7 +68,7 @@ const Flashcards = () => {
 
         <button
           onClick={previousCard}
-          className="bg-gray-200 px-6 py-3 rounded-lg"
+          className="bg-gray-200 px-6 py-3 rounded-lg text-gray-800"
         >
           Previous
         </button>

@@ -26,7 +26,7 @@ const Flashcard = ({ word }) => {
         >
 
           {/* FRONT */}
-          <div className="absolute w-full h-full bg-white rounded-2xl shadow-xl flex flex-col justify-center items-center backface-hidden">
+          <div className="absolute w-full h-full bg-white text-gray-800 rounded-2xl shadow-xl flex flex-col justify-center items-center backface-hidden">
 
             <span className="bg-blue-100 text-blue-600 px-4 py-2 rounded-full absolute top-5 left-5">
               {word.jlptLevel}
@@ -55,7 +55,7 @@ const Flashcard = ({ word }) => {
 
 
           {/* BACK */}
-          <div className="absolute w-full h-full bg-black text-white rounded-2xl shadow-xl flex flex-col justify-center items-center rotate-y-180 backface-hidden px-8">
+          <div className="absolute w-full h-full bg-gray-600  rounded-2xl shadow-xl flex flex-col justify-center items-center rotate-y-180 backface-hidden px-8">
 
             <h2 className="text-4xl font-bold">
               {word.meaning}

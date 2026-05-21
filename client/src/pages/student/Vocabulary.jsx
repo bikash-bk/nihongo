@@ -62,7 +62,7 @@ const Vocabulary = () => {
 
       </div>
 
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid grid-cols-3 gap-6 text-gray-800">
 
         {vocabulary.map((word) => (
           <VocabularyCard

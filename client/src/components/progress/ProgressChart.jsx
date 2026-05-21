@@ -3,7 +3,7 @@ const ProgressChart = ({
   completedQuizzes,
 }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-8">
+    <div className="bg-white rounded-2xl shadow-lg p-8 text-gray-800">
 
       <h1 className="text-3xl font-bold mb-8">
         Progress Overview
@@ -25,7 +25,7 @@ const ProgressChart = ({
 
           </div>
 
-          <div className="w-full bg-gray-200 rounded-full h-4">
+          <div className="w-full bg-gray-200 rounded-full h-4 text-gray-800" >
 
             <div
               className="bg-blue-500 h-4 rounded-full"

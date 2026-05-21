@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const QuizCard = ({ quiz }) => {
   return (
-    <div className="bg-white rounded-2xl shadow-lg p-6">
+    <div className="bg-white rounded-2xl shadow-lg p-6 text-gray-800">
 
       <span className="bg-blue-100 text-blue-600 px-3 py-1 rounded-full">
         {quiz.level}

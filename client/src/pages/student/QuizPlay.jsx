@@ -141,7 +141,7 @@ const QuizPlay = () => {
         (question, questionIndex) => (
           <div
             key={questionIndex}
-            className="bg-white p-6 rounded-2xl shadow-lg mb-8"
+            className="bg-white p-6 rounded-2xl shadow-lg mb-8 text-gray-800"
           >
 
             <h2 className="text-2xl font-bold">

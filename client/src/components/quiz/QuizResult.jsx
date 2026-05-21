@@ -4,7 +4,7 @@ const QuizResult = ({
   restartQuiz,
 }) => {
   return (
-    <div className="bg-white p-10 rounded-2xl shadow-xl text-center">
+    <div className="bg-white p-10 rounded-2xl shadow-xl text-center text-gray-800">
 
       <h1 className="text-5xl font-bold">
         Quiz Finished 🎉

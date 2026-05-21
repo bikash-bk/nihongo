@@ -143,7 +143,7 @@ const Progress = () => {
           Leaderboard
         </h2>
 
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div className="bg-white rounded-2xl shadow-lg overflow-hidden text-gray-800">
 
           <table className="w-full">
 
